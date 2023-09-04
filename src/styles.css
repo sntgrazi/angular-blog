@@ -3,9 +3,23 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: #111111;
   color:white;
   font-family: 'Segoe UI';
+}
+
+body {
+  background: linear-gradient(to left, #0397AB, #005A82, #0A323C, #091428, #0A1428);
+  background-size: 200% auto;
+  animation: gradientAnimation 15s linear infinite alternate;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% center;
+  }
+  100% {
+    background-position: 0% center;
+  }
 }
 
 a{

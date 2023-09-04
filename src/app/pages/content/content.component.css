@@ -9,6 +9,7 @@
   flex-direction: column;
 
   align-items: center;
+  text-align: center;
 }
 
 .content__cover > img{
@@ -20,10 +21,12 @@
 }
 
 .content__description{
+  width: 50%;
   margin-top: 15px;
 }
 
 .content__description > p{
+
   margin-top: 20px;
   color: rgb(198, 197, 197);
 }
